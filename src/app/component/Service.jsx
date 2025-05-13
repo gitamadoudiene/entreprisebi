@@ -4,25 +4,24 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 const Services = [
-  {
-    title: "Développement Web",
-    image:"/nov.jpg",
-    description: "Nous créons des sites web modernes et responsives pour répondre à vos besoins.",
-    slug: "dev-web",
-  },
-  {
-    title: "Marketing Digital",
-    image:"/marketing.jpg",
-    description: "Boostez votre visibilité en ligne avec nos stratégies de marketing digital.",
-    slug: "strat-marketing",
-
-  },
-  {
-    title: "Consultation IT",
-    image:"/nov.jpg",
-    description: "Bénéficiez de conseils d'experts pour optimiser votre infrastructure IT.",
-    slug: "consult-it",
-  },
+    {
+        title: "Développement Web",
+        image: "/nov.jpg",
+        description: "Nous créons des sites web modernes et responsives pour répondre à vos besoins.",
+        slug: "dev-web",
+    },
+    {
+        title: "Marketing Digital",
+        image: "/marketing.jpg",
+        description: "Boostez votre visibilité en ligne avec nos stratégies de marketing digital.",
+        slug: "strat-marketing",
+    },
+    {
+        title: "Consultation IT",
+        image: "/consultingIT.jpg",
+        description: "Bénéficiez de conseils d'experts pour optimiser votre infrastructure IT.",
+        slug: "consult-it",
+    },
 ];
 
 export default function Service() {
