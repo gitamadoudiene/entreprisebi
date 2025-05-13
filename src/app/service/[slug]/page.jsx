@@ -10,7 +10,7 @@ const Services = [
   },
   {
     title: "Marketing Digital",
-    image:"/nov.jpg",
+    image:"/marketing.jpg",
     description: "Boostez votre visibilité en ligne avec nos stratégies de marketing digital.",
     slug: "strat-marketing",
 
